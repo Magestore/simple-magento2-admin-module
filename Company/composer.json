@@ -1,0 +1,28 @@
+{
+  "name": "magestore/module-company",
+  "description": "N/A",
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0.0"
+  },
+  "type": "magento2-module",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "authors": [
+    {
+      "name": "Steve Ngo",
+      "email": "steve@magestore.com",
+      "homepage": "https://www.magestore.com/",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Magestore\\Company\\": ""
+    }
+  }
+}
